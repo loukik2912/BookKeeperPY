@@ -19,8 +19,8 @@ Books
 ```
 
 What this does is that it converts the directory listings into book-entry objects containing 3 fields - Author name, Series/Book name & whether it is a Standalone/Series.
-It then generates a CSV file containing all this data. Then an HTML file is generated for viewing the data in table a browser for a more aesthetic look.
-
+It then generates a CSV file containing all this data. Then an HTML file is generated for viewing the data in table a browser for a more aesthetic look.  
+![Booksviewer_HTML_table](/booksviewer.png?raw=true)  
 To use this, run create_csv.py & follow the instructions...
 
 For now, this is just a fun side-project :) But in the future, I'd like to integrate more features as I learn about them (to add a UI & other fields & make filtering possible)...
