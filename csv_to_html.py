@@ -1,13 +1,13 @@
 import os, sys
 import csv
 
-def create_html_page():
+def create_html_page(filePath):
     print(os.path.join(os.getcwd(), 'booksviewer.html'))
     with open(os.path.join(os.getcwd(), 'booksviewer.html'), 'w+') as html_fp:
         webpage_string = "<!DOCTYPE html>\n<html>\n<head>"\
         + get_HeadString() + \
         "</head>\n<body>\n"\
-        + get_BodyString() + \
+        + get_BodyString(filePath) + \
         "</body>\n</html>"
 
         html_fp.write(webpage_string)
